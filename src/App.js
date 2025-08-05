@@ -41,13 +41,13 @@ function App() {
         <h2>立即下載 今駕有影</h2>
         <p>iOS 與 Android 雙平台免費體驗</p>
         <div className="store-badges">
-          <a href="#" aria-label="App Store" className="badge">
+          <a href="https://apps.apple.com/" aria-label="App Store" className="badge" target="_blank" rel="noopener noreferrer">
             <img
               src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
               alt="Download on the App Store"
             />
           </a>
-          <a href="#" aria-label="Google Play" className="badge">
+          <a href="https://play.google.com/store" aria-label="Google Play" className="badge" target="_blank" rel="noopener noreferrer">
             <img
               src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
               alt="Get it on Google Play"
