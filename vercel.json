@@ -12,6 +12,7 @@
   "routes": [
     {
       "src": "/app-ads.txt",
+      "headers": { "Cache-Control": "no-store, must-revalidate" },
       "dest": "/app-ads.txt"
     },
     {
